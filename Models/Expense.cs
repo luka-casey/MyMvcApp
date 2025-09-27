@@ -7,6 +7,6 @@ public class Expense
 {
     public int Id { get; set; }
     public decimal Value { get; set; }
-    [Required]
+    [Required] //Investigate required 
     public string? Description { get; set; }
 }
