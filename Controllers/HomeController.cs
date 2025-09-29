@@ -16,6 +16,7 @@ public class HomeController : Controller
         _context = context;
     }
 
+//Todo learn about file segmentation
     public IActionResult Index()
     {
         return View();
